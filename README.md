@@ -1,30 +1,29 @@
-# [eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace Flutter Full App with Admin Panel](https://codecanyon.net/item/egrocer-online-grocery-store-ecommerce-marketplace-flutter-full-app-with-admin-panel/41423150)
+# eGrocer - Online Multi Vendor Grocery Store & eCommerce Marketplace Flutter App with Admin Panel
 
-## Demo Data
+![eGrocer Logo](logo.png)
 
-### Please follow the instructions below to set up the eGrocer demo data.
+## Demo Data Setup
 
-**NOTE:** If you have any personal data in the tables listed below, please be aware that it will be erased and replaced with our data. Please proceed at your own responsibility. We will not be responsible for any data loss from the database or storage folder.
+To set up the demo data for eGrocer, follow the instructions below.
 
-**Before you begin:**
-- Replace all folders with the ones provided in the `public/storage` folder.
+>>> **Note:** If your existing tables contain personal data, please exercise caution, as this process will replace your data with our demo data. We are not responsible for any data loss from the database or storage folder.
 
-**Database Setup:**
+### Image Files Setup
 
-1. Drop the following tables from the eGrocer's database:
-   - brands.sql
-   - categories.sql
-   - cities.sql
-   - product_images.sql
-   - product_variants.sql
-   - products.sql
-   - sliders.sql
-   - taxes.sql
+1. Delete all folders inside the `storage/public` directory.
+2. Download the provided `storage.zip` file.
+3. Upload the `storage.zip` file to the `public/storage` folder and extract its contents.
+4. Replace all existing folders in the `public/storage` directory with the contents of the extracted `storage.zip` file. Make sure to place the inner folders directly inside the `public/storage` folder, not within another `storage` subfolder.
 
-2. Import the provided database files into the database.
+>>>  **Important:** Ensure that the inner folders are directly placed inside the `public/storage` folder and not within another `storage` subfolder.
 
-# Your Support Matters
+### Database Setup
 
-If you appreciate our team's efforts and support, kindly take some time to share your positive feedback for us on [Rate us](https://codecanyon.net/downloads).
+1. In your eGrocer database, drop all existing tables.
+2. Import the provided database `egrocer_demo_data.sql` file  into your database.
 
-Thank you!
+## Your Support Matters
+
+If you appreciate our efforts and support, please take a moment to share your positive feedback with us by rating our product on [Rate us](https://codecanyon.net/downloads).
+
+Thank you for choosing eGrocer!
